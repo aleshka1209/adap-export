@@ -7,6 +7,8 @@
     <link rel="icon" href="favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="css/bootstrap-reboot.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="/slick/slick.css">
+    <link rel="stylesheet" href="/slick/slick-theme.css">
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
@@ -66,6 +68,8 @@
         </div>
     </header>
 
+
+    <!-- старый сайт версия -->
     <!-- <nav class="nav">
         <div class="container">
             <div class="nav__block">
