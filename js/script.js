@@ -1,4 +1,10 @@
-
+$(document).ready(function() {
+    // Burger menu
+    $('.burger__menu').on('click', function(){
+        $(this).toggleClass('active');
+        $('.header__menu').toggleClass('open');
+    }); 
+});
 // $(document).ready(function () {
 //     // Запуск анимации
 //     $("#tractor").animate(

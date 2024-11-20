@@ -13,7 +13,7 @@
 </head>
 <body>
 
-    <nav class="nav">
+    <nav class="nav wow animate__fadeInDown" >
         <div class="container">
             <div class="nav__block">
                 <div class="nav__left">
@@ -21,9 +21,7 @@
                         <li class="nav__item"><a href="">Главная</a></li>
                         <li class="nav__item"><a href="">О компании</a></li>
                         <li class="nav__item"><a href="">Продукция</a></li>
-                        
                     </ul>
-                    <hr>
                 </div>
                 <div class="nav__center">
                     <div class="nav__logo">
@@ -36,17 +34,16 @@
                         <li class="nav__item"><a href="">Новости</a></li>
                         <li class="nav__item"><a href="">Контакты</a></li>
                     </ul>
-                    <hr>
+                </div>
+                <div class="burger__menu">
+                    <span></span>
                 </div>
             </div>
         </div>
     </nav>
     <header class="header">
         <div class="container">
-            <div class="header__block">
-                <div class="header__left">
-                    <img src="img/h-left.png" alt="elevator">
-                </div>
+            <div class="header__block wow animate__fadeInUpBig" data-wow-duration="1s">
                 <div class="header__center">
                     <h1 class="header__title">
                         О компании <br> ТОО "ADAP-Export"
@@ -55,17 +52,76 @@
                     современная зерно-трейдинговая компания, один из ключевых игроков на зерновом рынке Казахстана. Основная деятельность компании ― экспорт зерновых, масличных и бобовых культур, выращенных крупными предприятиями отрасли...
                     </h2>
                     <a href="#about.php" class="header__link">Подробнее</a>
-                    <!-- <h1 class="header__title">ADAP-Export</h1>
-                    <h2 class="header__subtitle">
-                    Закупка и экспорт <br>
-                    сельскохозяйственной продукции
-                    </h2> -->
-                </div>
-                <div class="header__right">
-                    <img src="img/h-right.png" alt="right">
                 </div>
             </div>
         </div>
+    <div class="content wow animate__fadeInUpBig" data-wow-duration="2s">
+    <div class="container">
+        <h2 class="content__title">Продукция:</h2>
+        <div class="content__block">
+            <div class="content__item">
+                <div class="content__item__title">
+                    <a href="#">Зерновые культуры</a>
+                </div>
+                <div class="slider__img">
+                    <div class="content__img">
+                        <img src="img/content/1/1.png" alt="zerno">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/1/2.png" alt="zerno">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/1/3.png" alt="zerno">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/1/4.png" alt="zerno">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/1/5.png" alt="zerno">
+                    </div>
+                </div>
+                <div class="content__item__text"></div>
+            </div>
+            <div class="content__item">
+                <div class="content__item__title">
+                    <a href="#">Масличные культуры</a>
+                </div>
+                <div class="slider__img">
+                    <div class="content__img">
+                        <img src="img/content/2/1.png" alt="масло">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/2/2.png" alt="масло">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/2/3.png" alt="масло">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/2/4.png" alt="масло">
+                    </div>
+                </div>
+                <div class="content__item__text"></div>
+            </div>
+            <div class="content__item">
+                <div class="content__item__title">
+                    <a href="#">Бобовые культуры</a>
+                </div>
+                <div class="slider__img">
+                    <div class="content__img">
+                        <img src="img/content/3/1.png" alt="бобо">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/3/2.png" alt="бобо">
+                    </div>
+                    <div class="content__img">
+                        <img src="img/content/3/3.png" alt="бобо">
+                    </div>
+                </div>
+                <div class="content__item__text"></div>
+            </div>
+        </div>
+    </div>
+</div>
     </header>
 
 
