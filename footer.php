@@ -1,6 +1,6 @@
 
 
-    <!-- <footer class="footer">
+    <footer class="footer">
         <div class="container">
             <div class="footer__block">
                 <div class="footer__left">
@@ -21,7 +21,7 @@
                 </div>
             </div>
         </div>
-    </footer> -->
+    </footer>
 
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>

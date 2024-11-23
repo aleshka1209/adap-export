@@ -185,6 +185,7 @@ a:hover{
     background-repeat: no-repeat;
     background-size: cover;
     background-position: top;
+    padding-bottom: 50px;
 }
 .header__title{
     font-size: 24px;
@@ -226,7 +227,7 @@ a:hover{
 
 .content{
     padding-top: 200px;
-    padding-bottom: 30px;
+    padding-bottom: 50px;
 }
 .content__title{
     font-size: 35px;
@@ -273,8 +274,8 @@ a:hover{
 }
 
 .footer{
-    background-color: #ababab;
-    padding: 10px 0;
+    background-color: #fff;
+    padding: 5px 0;
 }
 .footer__block{
     display: flex;
@@ -302,7 +303,7 @@ a:hover{
     width: 100%;
 }
 .footer__img{
-    max-width: 70px;
+    max-width: 50px;
 }
 .footer__img img{
     width: 100%;
@@ -358,6 +359,37 @@ a:hover{
 .open{
     display: flex !important;
 }
+
+.b{
+    font-weight: 700;
+}
+
+/* About company page */
+.about__page{
+    background: url('/img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 120px 0 50px 0;
+}
+.about__title{
+    font-size: 18px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.about__block{
+    background: #fff;
+    border-radius: 20px;
+    padding: 30px 40px;
+}
+.about__menu{
+    list-style-type: disc;
+}
+.about__menu > li{
+    padding: 0 0 10px;
+}
+
+
 
 @keyframes burgerAnimation {
     from {opacity: 0;}
