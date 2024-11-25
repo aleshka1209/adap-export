@@ -20,7 +20,7 @@
                     <ul class="nav__menu">
                         <li class="nav__item"><a href="index.php">Главная</a></li>
                         <li class="nav__item"><a href="about.php">О компании</a></li>
-                        <li class="nav__item"><a href="">Продукция</a></li>
+                        <li class="nav__item"><a href="#">Продукция</a></li>
                     </ul>
                 </div>
                 <div class="nav__center">
@@ -30,9 +30,9 @@
                 </div>
                 <div class="nav__right">
                     <ul class="nav__menu">
-                        <li class="nav__item"><a href="">Схема работы</a></li>
-                        <li class="nav__item"><a href="">Новости</a></li>
-                        <li class="nav__item"><a href="">Контакты</a></li>
+                        <li class="nav__item"><a href="#">Схема работы</a></li>
+                        <li class="nav__item"><a href="news.php">Новости</a></li>
+                        <li class="nav__item"><a href="contact.php">Контакты</a></li>
                     </ul>
                 </div>
                 <div class="burger__menu">

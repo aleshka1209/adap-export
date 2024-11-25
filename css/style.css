@@ -389,6 +389,69 @@ a:hover{
     padding: 0 0 10px;
 }
 
+/* Общий фон */
+.bg{
+    background: url('/img/bg-header.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    padding: 120px 0 50px 0;
+}
+
+/* contact */
+.contact{
+    min-height: 800px;
+}
+.contact__block{
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+}
+iframe{
+    border-radius: 20px;
+}
+.contact__item:last-child{
+    background-color: #fff;
+    min-width: 300px;
+    padding: 20px;
+    border-radius: 20px;
+    position: relative;
+    left: -150px;
+}
+.contact__item:last-child > p{
+    margin: 0;
+}
+
+/* Новостоной блок news */
+
+.news{
+    min-height: 800px;
+}
+.news__block{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.news__item{
+    flex: 0 1 33.33%;
+    background-color: #fff;
+    min-height: 350px;
+    min-width: 300px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 10px;
+    padding: 20px 20px 0 20px;
+}
+.news__title{
+    padding-top: 10px;
+}
+.news__btn{
+    padding: 20px 0;
+}
+.news__btn > a{
+    margin: 0;
+    transform: none;
+}
 
 
 @keyframes burgerAnimation {
@@ -424,9 +487,34 @@ a:hover{
         margin-top: 20px;
         margin-left: 0;
     }
+    .about__block{
+        margin: 0 10px;
+    }
+    .contact__block{
+        flex-direction: column;
+    }
+    .contact__item:first-child{
+        order: 2;
+        margin: 0 auto;
+    }
+    .contact__item:last-child{
+        order: 1;
+        left: 0;
+        margin: 0 auto;
+        margin-bottom: 30px;
+    }
+    .news__block{
+        margin: 0 10px;
+    }
   }
   @media (max-width: 990px) {
-
+    .news__block{
+        flex-direction: column;
+    }
+    .news__item{
+        max-width: 400px;
+        margin-bottom: 30px;
+    }
   }
 
   @media (max-width: 770px) {
@@ -441,5 +529,17 @@ a:hover{
     }
     .nav__left, .nav__right{
         display: none;
+    }
+    .footer__block{
+        flex-direction: column;
+    }
+    .footer__left{
+        padding: 10px 0;
+    }
+    .footer__right{
+        padding: 10px 0;
+    }
+    iframe{
+        width: 300px !important;
     }
   }
