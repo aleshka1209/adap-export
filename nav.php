@@ -20,7 +20,7 @@
                     <ul class="nav__menu">
                         <li class="nav__item"><a href="index.php">Главная</a></li>
                         <li class="nav__item"><a href="about.php">О компании</a></li>
-                        <li class="nav__item"><a href="#">Продукция</a></li>
+                        <li class="nav__item"><a href="product.php">Продукция</a></li>
                     </ul>
                 </div>
                 <div class="nav__center">

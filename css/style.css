@@ -453,6 +453,86 @@ iframe{
     transform: none;
 }
 
+/* products */
+
+.products{
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+.products__menu1{
+    min-width: 300px;
+    padding: 20px 50px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.products__content{
+    max-width: 800px;
+    border-radius: 20px;
+    padding: 30px 50px;
+    background-color: #fff;
+}
+.category__item{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+    text-align: center;
+}
+.products__img{
+    max-width: 120px;
+}
+.products__img img{
+    width: 100%;
+}
+.btn{
+    margin: 0;
+    transform: none;
+}
+.category_title{
+    font-weight: 700;
+    cursor: pointer;
+}
+.category__title{
+    font-size: 24px;
+}
+.subcategory{
+    font-weight: 500;
+    cursor: pointer;
+}
+.subcategory-list{
+    padding: 10px 0;
+}
+.subcategory-list li{
+    padding: 2.5px 0;
+}
+.category__img{
+    max-width: 120px;
+}
+.category__img img{
+    width: 100%;
+}
+
+
+/* Таблицы */
+
+table{
+    width: 100%;
+    border: 1px solid #000;
+    font-weight: 500;
+}
+th{
+    border: 1px solid #000;
+    text-align: center;
+    padding: 30px;
+    font-size: 12px;
+}
+td{
+    font-size: 12px;
+    border: 1px solid #000;
+    text-align: center;
+    padding: 5px;
+}
 
 @keyframes burgerAnimation {
     from {opacity: 0;}
@@ -506,6 +586,15 @@ iframe{
     .news__block{
         margin: 0 10px;
     }
+    .category__item{
+        align-items: flex-start;
+    }
+    .products__content{
+        margin: 0 10px;
+    }
+    .products__menu1{
+        display: none;
+    }
   }
   @media (max-width: 990px) {
     .news__block{
@@ -541,5 +630,9 @@ iframe{
     }
     iframe{
         width: 300px !important;
+    }
+    th,td{
+        font-size: 8px;
+        padding: 3px;
     }
   }

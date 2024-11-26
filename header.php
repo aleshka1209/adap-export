@@ -19,7 +19,7 @@
         <div class="content__block">
             <div class="content__item">
                 <div class="content__item__title">
-                    <a href="#">Зерновые культуры</a>
+                    <a href="product.php">Зерновые культуры</a>
                 </div>
                 <div class="slider__img">
                     <div class="content__img">
@@ -42,7 +42,7 @@
             </div>
             <div class="content__item">
                 <div class="content__item__title">
-                    <a href="#">Масличные культуры</a>
+                    <a href="product.php">Масличные культуры</a>
                 </div>
                 <div class="slider__img">
                     <div class="content__img">
@@ -62,7 +62,7 @@
             </div>
             <div class="content__item">
                 <div class="content__item__title">
-                    <a href="#">Бобовые культуры</a>
+                    <a href="product.php">Бобовые культуры</a>
                 </div>
                 <div class="slider__img">
                     <div class="content__img">
