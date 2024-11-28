@@ -2,7 +2,11 @@ $(document).ready(function() {
     // Burger menu
     $('.burger__menu').on('click', function(){
         $(this).toggleClass('active');
-        $('.header__menu').toggleClass('open');
+        $('.overlay').toggleClass('open');
+        $(this).toggleClass('active-white');
+        $('body').toggleClass('overflow-y');
+        $('.nav__left').toggleClass('active-nav');
+        $('.nav__right').toggleClass('active-nav');
     }); 
 });
 // $(document).ready(function () {

@@ -12,7 +12,7 @@
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
+    <div class="overlay"></div>
     <nav class="nav wow animate__fadeInDown" >
         <div class="container">
             <div class="nav__block">
@@ -30,7 +30,7 @@
                 </div>
                 <div class="nav__right">
                     <ul class="nav__menu">
-                        <li class="nav__item"><a href="#">Схема работы</a></li>
+                        <li class="nav__item"><a href="work.php">Схема работы</a></li>
                         <li class="nav__item"><a href="news.php">Новости</a></li>
                         <li class="nav__item"><a href="contact.php">Контакты</a></li>
                     </ul>
