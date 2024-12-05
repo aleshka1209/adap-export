@@ -581,7 +581,7 @@ td{
         border: 1px solid #fff;
     }
     .lang__link:last-child{
-        margin-top: 2px;
+        margin-top: -2px;
         margin-left: 60px;
     }
     .lang__link a{
