@@ -294,12 +294,15 @@ a:hover{
     background-size: cover;
     background-position: top;
     padding: 120px 0 50px 0;
-    min-height: 100vh;
+    min-height: 100%;
 }
 
 /* contact */
 .contact{
-    min-height: 800px;
+    /* min-height: 800px; */
+}
+.fx{
+    flex-grow: 1;
 }
 .contact__block{
     display: flex;
@@ -324,7 +327,7 @@ iframe{
 /* Новостоной блок news */
 
 .news{
-    min-height: 800px;
+    /* min-height: 800px; */
 }
 .news__block{
     display: flex;
@@ -423,7 +426,7 @@ table{
 th{
     border: 1px solid #000;
     text-align: center;
-    padding: 30px;
+    padding: 15px;
     font-size: 12px;
 }
 td{

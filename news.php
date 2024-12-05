@@ -1,6 +1,6 @@
 <?php include('nav.php'); ?>
 
-<div class="news bg">
+<div class="news bg fx">
     <div class="container">
         <div class="news__block">
             <div class="news__item">

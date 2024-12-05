@@ -1,6 +1,6 @@
 <?php include('nav.php');?>
 
-<div class="about__page">
+<div class="about__page fx">
     <div class="container">
         <div class="about__block wow animate__fadeInUpBig" data-wow-duration="1s">
             <h2 class="about__title">О компании</h2>

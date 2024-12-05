@@ -1,6 +1,6 @@
 <?php include('nav.php'); ?>
 
-<div class="contact bg">
+<div class="contact bg fx">
     <div class="container">
         <div class="contact__block">
             <div class="contact__item">

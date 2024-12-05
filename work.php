@@ -1,7 +1,7 @@
 <?php include('nav.php'); ?>
 
 
-<div class="work bg">
+<div class="work bg fx">
     <div class="container">
         <div class="work__item wow animate__fadeInLeft" data-wow-duration="2s">
             <h1 class="work__title">Схема работы</h1>

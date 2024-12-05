@@ -1,6 +1,6 @@
 <?php include('nav.php');?>
 
-<div class="product bg">
+<div class="product bg fx">
     <div class="container">
             <div class="products">
                 <div id="menu" class="products__menu1  wow animate__fadeInLeft" data-wow-duration="2s">
