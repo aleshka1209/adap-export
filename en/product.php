@@ -5,7 +5,7 @@
             <div class="products">
                 <div id="menu" class="products__menu1  wow animate__fadeInLeft" data-wow-duration="2s">
                     <ul class="products__menu2">
-                        <li class="category category_title" data-category="zernovye">Cereals
+                        <li class="category category_title" data-category="zernovye">GRAINS
                             <hr class="products__hr">
                             <ul class="subcategory-list">
                                 <li class="subcategory" data-category="zernovye" data-subcategory="pshenica">Wheat</li>
@@ -14,19 +14,19 @@
                                 <li class="subcategory" data-category="zernovye" data-subcategory="buckwheat">Buckwheat</li>
                             </ul>
                         </li>
-                        <li class="category category_title" data-category="maslichnye">Oilseeds
+                        <li class="category category_title" data-category="maslichnye">OILSEEDS
                             <hr class="products__hr">
                             <ul class="subcategory-list">
-                                <li class="subcategory" data-category="maslichnye" data-subcategory="podsolnechnik">Sunflower</li>
-                                <li class="subcategory" data-category="maslichnye" data-subcategory="raps">Rape</li>
-                                <li class="subcategory" data-category="maslichnye" data-subcategory="len">Len</li>
+                                <li class="subcategory" data-category="maslichnye" data-subcategory="podsolnechnik">Sunflowers</li>
+                                <li class="subcategory" data-category="maslichnye" data-subcategory="raps">Rapeseed</li>
+                                <li class="subcategory" data-category="maslichnye" data-subcategory="len">Flax</li>
                             </ul>
                         </li>
-                        <li class="category category_title" data-category="bobovye">Legumes
+                        <li class="category category_title" data-category="bobovye">LEGUMES
                             <hr class="products__hr">
                             <ul class="subcategory-list">
                                 <li class="subcategory" data-category="bobovye" data-subcategory="goroh">Peas</li>
-                                <li class="subcategory" data-category="bobovye" data-subcategory="soya">Soya</li>
+                                <li class="subcategory" data-category="bobovye" data-subcategory="soya">Soy</li>
                             </ul>
                         </li>
                     </ul>

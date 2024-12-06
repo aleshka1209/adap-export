@@ -14,7 +14,7 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quidem architecto dolores, molestias aspernatur asperiores...
                 </div>
                 <div class="news__btn">
-                    <a href="#" class="header__link">More details</a>
+                    <a href="#" class="header__link">Read more</a>
                 </div>
             </div>
             <div class="news__item">
@@ -28,7 +28,7 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quidem architecto dolores, molestias aspernatur asperiores...
                 </div>
                 <div class="news__btn">
-                    <a href="#" class="header__link">More details</a>
+                    <a href="#" class="header__link">Read more</a>
                 </div>
             </div>
             <div class="news__item">
@@ -42,7 +42,7 @@
                     Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam quidem architecto dolores, molestias aspernatur asperiores...
                 </div>
                 <div class="news__btn">
-                    <a href="#" class="header__link">More details</a>
+                    <a href="#" class="header__link">Read more</a>
                 </div>
             </div>
         </div>

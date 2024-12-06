@@ -4,13 +4,12 @@
             <div class="header__block wow animate__fadeInUpBig" data-wow-duration="1s">
                 <div class="header__center">
                     <h1 class="header__title">
-                    About the company <br> ТОО "ADAP-Export"
+                    About the company <br> ADAP-Export LLP
                     </h1>
                     <h2 class="header__subtitle">
                     a modern grain trading company, one of the key players in the grain market of Kazakhstan. The company's main activity is the export of grains, oilseeds and legumes grown by large enterprises in the industry...
                     </h2>
-                    <a href="about.php" class="header__link">
-                    More details</a>
+                    <a href="about.php" class="header__link">Read more</a>
                 </div>
             </div>
         </div>
@@ -20,7 +19,7 @@
         <div class="content__block">
             <div class="content__item">
                 <div class="content__item__title">
-                    <a href="product.php">Cereals</a>
+                    <a href="product.php">Grains</a>
                 </div>
                 <div class="slider__img">
                     <div class="content__img">
